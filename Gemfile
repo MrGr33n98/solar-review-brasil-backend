@@ -44,7 +44,7 @@ gem 'cancancan'
 gem 'draper'
 gem 'sassc', '~> 2.4'
 gem 'sprockets-rails'
-gem 'psych', '< 4'
+gem 'psych', '< 6'
 gem 'active_model_serializers'
 
 group :development, :test do
