@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/activeadmin/activeadmin.git
-  revision: e87408669c026c8dc08cc646969aeb5e5415a678
+  revision: 98b9fa8e3790e44e9f62707a074289a2d53246ec
   specs:
     activeadmin (4.0.0.beta15)
       arbre (~> 2.0)
@@ -136,6 +136,7 @@ GEM
       ruby2_keywords
     drb (2.2.3)
     ed25519 (1.4.0)
+    erb (5.0.1)
     erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
@@ -289,7 +290,9 @@ GEM
       activerecord (>= 6.1.5)
       activesupport (>= 6.1.5)
       i18n
-    rdoc (6.3.4.1)
+    rdoc (6.14.2)
+      erb
+      psych (>= 4.0.0)
     regexp_parser (2.10.0)
     reline (0.6.1)
       io-console (~> 0.5)
